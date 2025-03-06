@@ -36,7 +36,7 @@ function App() {
           </button>
          </span>
          </nav>
-        <div className='p-4 flex flex-col md:flex-row items-center relative'>
+        <div className='p-10 flex flex-col md:flex-row items-center relative'>
           <div className='md:w-2/3 space-y-6'>
             <h1 className='text-6xl font-bold'>Learn how we are <span className='mx-2 text-red-700'>Different</span> from other lenders.<span className='block h-2 w-10 bg-red-700 mt-6'></span></h1>
             <p className='text-2xl font-normal'>Get your loan Quickly and efficiently.</p>
@@ -48,9 +48,11 @@ function App() {
              <FiArrowRight className="text-black" />
              </span>
             </button>
+           
       </div>
-        <div className='flex items-center gap-3 mt-6'>
-        <div className='flex -space-x-2'>
+        
+      <div className='flex items-center gap-3 mt-6'>
+         <div className='flex -space-x-2'>
           <img src={Profile1} alt = "User" className='w-10 h-10 rounded-full border-2 border-white'/>
           <img src= {Profile2} alt = "User" className='w-10 h-10 rounded-full border-2 border-white'/>
           <img src= {Profile3} alt = "User" className='w-10 h-10 rounded-full border-2 border-white'/>
@@ -61,15 +63,17 @@ function App() {
         <span className='text-xl font-semibold leading-tight'>Active users</span>
         </div>
       </div>
+      <div className="relative w-full h-full">
+  {/* Customer Image Positioned Absolutely */}
+  
+</div>
+<img 
+    src={Customer} 
+    alt="Customer" 
+    className="absolute left-[50%] top-[65%] translate-x-[-50%] translate-y-[-40%] w-[325px] h-auto"
+  />
+      </div>
       
-      </div>
-      <div className='flex flex-col md: flex-row items-center justify-center relative text-center'>
-        <img 
-            src= {Customer}
-            alt= "Customer"
-            className='w-full max-w-sm mx-auto md: mx-0'
-        />
-      </div>
     </div>
     </div>
     </div>
