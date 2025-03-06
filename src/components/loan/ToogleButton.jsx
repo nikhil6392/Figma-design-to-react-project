@@ -24,7 +24,7 @@ export default function ToggleButtons() {
             }`}
             onClick={() => setActiveButton("Residential Loan")}
           >
-            Residential Loan
+            🏡 Residential Loan
           </button>
           <button
             className={`h-[76px] w-[340px] text-white rounded-[38px] transition-all duration-300 text-center ${
@@ -32,7 +32,7 @@ export default function ToggleButtons() {
             }`}
             onClick={() => setActiveButton("Commercial Loan")}
           >
-            Commercial Loan
+            🏢 Commercial Loan
           </button>
         </div>
       </div>
