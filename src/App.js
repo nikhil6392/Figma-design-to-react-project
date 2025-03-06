@@ -4,6 +4,7 @@ import logo from './components/assets/logo.png'
 function App() {
   return (
     <div className="App">
+      <div className='h-screen bg-gradient-to-r from-cyan-500 to-blue-500'>
       <nav className="flex items-center p-4 border-b bg-gray-700 text-white">
       {/* Logo on the left */}
       <img 
@@ -29,6 +30,12 @@ function App() {
         </button>
       </span>
     </nav>
+    <div className='p-4 flex flex-col md:flex-row items-center relative'>
+      <div className='md:w-2/3 space-y-6'>
+      <h1 className='text-6xl font-bold'>Learn how we are <span className='mx-2 text-red-700'>Different</span> from other lenders.<span className='block h-2 w-10 bg-red-700 mt-6'></span></h1>
+      </div>
+    </div>
+    </div>
     </div>
   );
 }
