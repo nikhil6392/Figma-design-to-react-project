@@ -12,7 +12,6 @@ export default function ToggleButtons() {
             <span className="mx-2 text-blue-900">Loan</span>
             <span className="mx-2 text-blue-950">Types</span>
           </div>
-          {/* Dash below the title */}
           <div className="h-1 w-10 bg-blue-900 mt-2"></div>
         </div>
   
