@@ -2,6 +2,7 @@ import './App.css';
 import About from './components/About';
 import LandingPage from './components/LandingPage';
 import Loan from './components/loan/Loan';
+import Review from './components/Review';
 
 
 // import logo from './components/assets/logo.png'
@@ -18,6 +19,7 @@ function App() {
       <LandingPage />
       <Loan />
       <About />
+      <Review />
     </div>
   );
 }
