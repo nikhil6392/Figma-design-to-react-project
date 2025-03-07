@@ -16,7 +16,7 @@ const LandingPage = () => {
              <img 
                 src={logo} 
                 alt="Logo" 
-                className="h-10 w-auto mt-[44px] ml-[100px]"
+                className="h-12 w-auto mt-[44px] ml-[100px]"
              />
 
         
@@ -64,15 +64,12 @@ const LandingPage = () => {
         </div>
       </div>
       <div className="relative w-full h-full">
-  {/* Customer Image Positioned Absolutely */}
-  
-</div>
-<img 
+    </div>
+    <img 
     src={Customer} 
     alt="Customer" 
-    className="absolute left-[50%] top-[65%] translate-x-[-50%] translate-y-[-40%] w-[325px] h-auto"
-  />
-      </div>
+    className="absolute left-[50%] top-[70%] translate-x-[-50%] translate-y-[-50%] w-[325px] h-auto"/>
+    </div>
       
     </div>
     </div>

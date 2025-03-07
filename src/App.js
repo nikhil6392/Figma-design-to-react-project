@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About';
+import QuickLending from './components/componet';
 import FAQ from './components/Faqs';
 import LandingPage from './components/LandingPage';
 import Loan from './components/loan/Loan';
