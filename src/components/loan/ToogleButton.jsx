@@ -5,7 +5,7 @@ export default function ToggleButtons() {
   
     return (
       <div className="flex flex-col items-center mt-10">
-        {/* Title Container */}
+        
         <div className="w-[324px] h-[123px] flex flex-col items-center gap-2">
           <h6 className="text-center">How we can help</h6>
           <div className="flex items-center text-3xl font-bold">
@@ -16,7 +16,6 @@ export default function ToggleButtons() {
           <div className="h-1 w-10 bg-blue-900 mt-2"></div>
         </div>
   
-        {/* Buttons Container - Adjusted margin-top */}
         <div className="mt-8 w-[700px] h-[100px] mx-auto border border-gray-500 rounded-[50px] flex items-center justify-center gap-4 bg-gray-300 p-2">
           <button
             className={`h-[76px] w-[340px] text-white rounded-[38px] transition-all duration-300 text-center ${
