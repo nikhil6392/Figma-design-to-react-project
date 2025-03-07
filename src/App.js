@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import LandingPage from './components/LandingPage';
 import Loan from './components/loan/Loan';
 
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <LandingPage />
       <Loan />
+      <About />
     </div>
   );
 }
