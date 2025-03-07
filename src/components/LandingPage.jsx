@@ -70,8 +70,33 @@ const LandingPage = () => {
     alt="Customer" 
     className="absolute left-[50%] top-[70%] translate-x-[-50%] translate-y-[-50%] w-[325px] h-auto"/>
     </div>
+    <div className="relative flex-1 flex flex-col items-start space-y-6 ml-16">
+          <div className="relative flex flex-col space-y-6 ">
+            <div className="flex items-center space-x-3 bg-white text-black p-4 rounded-lg shadow-md">
+              <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+              <span className="text-red-500 text-xl font-bold">📊</span>
+              <span>2M+ Business Owners</span>
+            </div>
+            <div className="flex items-center space-x-3 bg-white text-black p-4 rounded-lg shadow-md">
+              <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+              <span className="text-blue-500 text-xl font-bold">🌎</span>
+              <span>10+ Countries Supported</span>
+            </div>
+            <div className="flex items-center space-x-3 bg-white text-black p-4 rounded-lg shadow-md">
+              <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+              <span className="text-green-500 text-xl font-bold">⭐</span>
+              <span>4.9 Ratings by Customers</span>
+            </div>
+            <div className="flex items-center space-x-3 bg-white text-black p-4 rounded-lg shadow-md">
+              <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+              <span className="text-blue-700 text-xl font-bold">💰</span>
+              <span>Residential & Commercial Loan</span>
+            </div>
+          </div>
+        </div>
       
     </div>
+    
     </div>
     </div>
   )
