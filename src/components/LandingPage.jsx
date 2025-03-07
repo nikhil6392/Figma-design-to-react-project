@@ -11,8 +11,8 @@ import Profile4 from './assets/profile4.png'
 const LandingPage = () => {
   return (
     <div>
-      <div className='h-screen bg-gradient-to-r from-cyan-500 to-blue-500'>
-         <nav className="flex items-center p-4 border-b bg-gray-700 text-white">
+      <div className='h-screen bg-gradient-to-r from-blue-950 via-blue-700 to-blue-950'>
+         <nav className="flex items-center p-4 text-white">
              <img 
                 src={logo} 
                 alt="Logo" 
@@ -38,8 +38,8 @@ const LandingPage = () => {
          </nav>
         <div className='p-10 flex flex-col md:flex-row items-center relative'>
           <div className='md:w-2/3 space-y-6'>
-            <h1 className='text-6xl font-bold'>Learn how we are <span className='mx-2 text-red-700'>Different</span> from other lenders.<span className='block h-2 w-10 bg-red-700 mt-6'></span></h1>
-            <p className='text-2xl font-normal'>Get your loan Quickly and efficiently.</p>
+            <h1 className='text-6xl font-bold text-white'>Learn how we are <span className='mx-2 text-red-700'>Different</span> from other lenders.<span className='block h-2 w-10 bg-red-700 mt-6'></span></h1>
+            <p className='text-2xl font-normal text-gray-300'>Get your loan Quickly and efficiently.</p>
             <div className='flex space-x-4'>
             <button className="bg-white px-0 py-0 rounded-md hover:bg-gray-200 transition flex items-center border border-gray-300"
             >
@@ -58,9 +58,9 @@ const LandingPage = () => {
           <img src= {Profile3} alt = "User" className='w-10 h-10 rounded-full border-2 border-white'/>
           <img src= {Profile4} alt = "User" className='w-10 h-10 rounded-full border-2 border-white'/>
         </div>
-        <div className='flex flex-col items-start'>
-        <span className='text-xl font-semibold leading-tight'>320K</span>
-        <span className='text-xl font-semibold leading-tight'>Active users</span>
+        <div className='flex flex-col items-start '>
+        <span className='text-xl font-semibold leading-tight text-white'>320K</span>
+        <span className='text-xl font-semibold leading-tight text-gray-300'>Active users</span>
         </div>
       </div>
       <div className="relative w-full h-full">

@@ -18,7 +18,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <div className="bg-gradient-to-r from-[#111C44] to-[#11224D] p-10 text-white">
+    <div className="h-screen bg-gradient-to-r from-blue-950 via-blue-700 to-blue-950 p-10 text-white">
       <h2 className="text-4xl font-bold text-center mb-2">
         Frequently Asked <span className="text-red-500">Questions</span>
       </h2>

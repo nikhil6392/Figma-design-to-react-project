@@ -6,17 +6,17 @@ import PartnerShip from './assets/partnership.png';
 
 const About = () => {
   return (
-    <div className="bg-[#0f1c2e] text-white py-16 px-8 md:px-16 lg:px-24 relative">
+    <div className="h-screen bg-gradient-to-r from-blue-950 via-blue-700 to-blue-950 text-white py-16 px-8 md:px-16 lg:px-24 relative">
     
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         
         <div className="lg:w-1/2 text-center lg:text-left">
-        <p>Quick Lending</p>
-          <h2 className="text-4xl font-bold">
+        <p className="text-white">Quick Lending</p>
+          <h2 className="text-4xl font-bold text-white">
             Who <span className="text-red-500">We</span> Are
           </h2>
           <span className='block h-2 w-10 bg-red-700 mt-6'></span>
-          <p className="mt-4 text-gray-300">
+          <p className="mt-4 text-gray-200">
             As a client-focused, boutique private lender, we’re flexible enough
             to cater to most needs and nimble enough to execute quickly. We
             pride ourselves on the ability to make a fast decision and execute
@@ -27,15 +27,15 @@ const About = () => {
           <ul className="mt-6 space-y-4">
             <li className="flex items-center gap-3">
               <span className="text-green-600 text-xl">✔</span>
-              <span>Extended support for borrowers</span>
+              <span className="text-white">Extended support for borrowers</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-green-600 text-xl">✔</span>
-              <span>Your success is our focus</span>
+              <span className="text-white">Your success is our focus</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="text-green-600 text-xl">✔</span>
-              <span>We fund, fix, and flip all transactional deals</span>
+              <span className="text-white">We fund, fix, and flip all transactional deals</span>
             </li>
           </ul>
         </div>
