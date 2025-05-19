@@ -1,6 +1,6 @@
-# Assignment Project
+# Figma design to real world project
 
-Welcome to the **Assignment Project**! This application is designed to provide an intuitive and seamless user experience. Below, you'll find a brief overview of the app, key screenshots, and a guide on how to set up and run the project locally.
+Welcome to the **Design to Real World Project**! This application is designed to provide an intuitive and seamless user experience. Below, you'll find a brief overview of the app, key screenshots, and a guide on how to set up and run the project locally.
 
 ## Screenshots
 Here are some snapshots of the application:
